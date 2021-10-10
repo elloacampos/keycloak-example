@@ -1,0 +1,20 @@
+server:
+  port: 8083
+
+spring:
+  jpa:
+    defer-datasource-initialization: true
+  datasource:
+    username: sa
+    url: jdbc:h2:mem:customdb
+  h2:
+    console:
+      enabled: true
+
+keycloak:
+  server:
+    contextPath: /auth
+    adminUser:
+      username: admin
+      password: 123
+    realmImportFile: baeldung-realm.json
