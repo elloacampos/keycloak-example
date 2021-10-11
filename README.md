@@ -1,10 +1,8 @@
 # Keycloak - Custom Provider Example
 
-To run:
-mvn clean install
+mvn clean install  
 mvn spring-boot:run
 
-http://localhost:8083/auth
-username:admin
+http://localhost:8083/auth  
+username:admin  
 password:123
-
