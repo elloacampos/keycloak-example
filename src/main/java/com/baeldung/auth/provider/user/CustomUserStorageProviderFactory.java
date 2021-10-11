@@ -72,7 +72,7 @@ public class CustomUserStorageProviderFactory implements UserStorageProviderFact
     @Override
     public String getId() {
         log.info("[I69] getId()");
-        return "custom-user-provider-test-dws";
+        return "custom-user-provider-test";
     }
 
     

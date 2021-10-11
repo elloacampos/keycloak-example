@@ -7,4 +7,4 @@ create table if not exists users (
     birthDate DATE not null
 );
 
-insert into users set username = 'elloa', password='123', email='elloa.campos@db.com', firstname='elloa',  lastname='campos', birthdate=now();
+insert into users set username = 'elloa', password='123', email='elloa@email.com', firstname='elloa',  lastname='campos', birthdate=now();
